@@ -20,10 +20,7 @@
 		"ItemResult"					"item_trumps_fists_2"
 		"ItemRequirements"
 		{
-			"01"						"item_trumps_fists;item_upgrade_core"
-			"02"						"item_trumps_fists;item_upgrade_core_2"
-			"03"						"item_trumps_fists;item_upgrade_core_3"
-			"04"						"item_trumps_fists;item_upgrade_core_4"
+			"01"						"item_trumps_fists;item_upgrade_core_4"
 		}
 	}
 
@@ -59,59 +56,29 @@
 				"bonus_damage"			"125 150"
 			}
 			"02"
-			{
-				"var_type"				"FIELD_INTEGER"
-				"corruption_armor"		"0"
-			}
-			"03"
-			{
-				"var_type"				"FIELD_FLOAT"
-				"corruption_duration"	"0"
-			}
-			"04"
             {
                 "var_type"              "FIELD_INTEGER"
-                "bonus_all_stats"       "32 34"
+                "bonus_all_stats"       "35 40"
             }
-            "05"
+            "03"
             {
                 "var_type"              "FIELD_INTEGER"
-                "bonus_health"          "450 550"
+                "bonus_health"          "500 750"
+            }
+            "04"
+            {
+                "var_type"              "FIELD_INTEGER"
+                "bonus_mana"            "600 800"
+            }
+       		"05"
+            {
+                "var_type"              "FIELD_INTEGER"
+                "heal_prevent_percent"  "-50 -100"
             }
             "06"
             {
                 "var_type"              "FIELD_INTEGER"
-                "bonus_mana"            "475 575"
-            }
-            "07"
-            {
-                "var_type"              "FIELD_INTEGER"
-                "cold_movement_speed"   "0"
-            }
-            "08"
-            {
-                "var_type"              "FIELD_INTEGER"
-                "cold_attack_speed"     "0"
-            }
-            "09"
-            {
-                "var_type"              "FIELD_FLOAT"
-                "cold_duration_melee"   "0"
-            }
-            "10"
-            {
-                "var_type"              "FIELD_FLOAT"
-                "cold_duration_ranged"  "0"
-            }
-       		"11"
-            {
-                "var_type"              "FIELD_INTEGER"
-                "heal_prevent_percent"  "-15 -75"
-            }
-            "12"
-            {
-                "var_type"              "FIELD_INTEGER"
-                "heal_prevent_duration"  "5"
+                "heal_prevent_duration"  "2"
             }
 		}
 	}

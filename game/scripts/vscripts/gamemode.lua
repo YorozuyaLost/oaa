@@ -151,6 +151,7 @@ function GameMode:OnPreGame()
   InitModule(AbilityLevels)
   InitModule(HeroProgression)
   InitModule(SellBlackList)
+  InitModule(BubbleOrbFilter)
   InitModule(NGP)
 end
 
@@ -166,6 +167,7 @@ function GameMode:OnGameInProgress()
   InitModule(CreepPower)
   InitModule(CreepCamps)
   InitModule(CreepItemDrop)
+  InitModule(CaveHandler)
   InitModule(Duels)
   InitModule(BossSpawner)
 
